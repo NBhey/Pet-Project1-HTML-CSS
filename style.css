@@ -9,18 +9,16 @@
     margin: 0 auto;
     background-color:#52503B;
     display: flex;
-    gap: 345px;
+    gap: 300px;
 }
 .header__logo {
     padding-left: 120px;
     padding-top: 8px;
-    display: inline-block;
+    align-self: center;
 }
 .header__nav {
-    display: inline-block;
     height: 60px;
-
-    
+    align-self: center;
 }
 .navigation {
     padding-top:20px ;
@@ -36,14 +34,15 @@
     color:#ffffff;
 }
 .header__btn {
-    height: 42px;
-    width: 117px;
-    padding: 18px 11px;
-    margin-top:9px;
-    text-align: center;
-    border-radius: 6px;
-
+    align-self: center;
 }
 .btn {
-  
+    width:117px;
+    height: 42px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;   
 }
