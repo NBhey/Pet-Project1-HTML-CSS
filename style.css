@@ -6,6 +6,10 @@
 body {
     background:black;
 }
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .header {
     max-width:1440px;
     height: 80px;
@@ -83,7 +87,7 @@ body {
     margin-bottom: 116.75px;
 }
 .subtitle { 
-        font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -91,6 +95,29 @@ body {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-        color: #ffffff;
+    color: #ffffff;
 }
-
+.descriptio {
+    background-color:#FAF8F0;
+    margin: 0 auto;
+    padding-top: 141px;
+    max-width: 1440px;
+    height: 410px;
+    padding-left: 361px;
+    padding-right: 336px;
+  
+}
+.descriptio__wrap {
+    display: flex;
+    gap: 40px;
+    justify-content:space-evenly;
+    margin: 0 auto;
+}
+.descriptio__text {
+    max-width:360px;
+    max-height:180px;
+}
+.descriptio__secondText {
+    max-width: 343px;
+    max-height: 80px;
+}
