@@ -131,13 +131,14 @@ a {
     max-width: 343px;
 }
 .slogan {
-    margin: 0 auto;
     background-color: #ffffff;
     padding-top: 140px;
     padding-left: 76px;
     padding-bottom:140px;
 }
 .slogan__text {
+    margin: 0 auto;
+    max-width: 1287px;
     position: relative;
     font-family: 'Montserrat';
     font-size: 96px;
@@ -154,4 +155,8 @@ a {
     right: 47.38%;
     top: -32px;
     background: #E08631;
+}
+.kitchen_pic {
+    margin: 0 auto;
+    max-width:1440px;
 }
