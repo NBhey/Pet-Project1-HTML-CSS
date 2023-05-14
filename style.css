@@ -137,8 +137,10 @@ a {
     padding-bottom:140px;
 }
 .slogan__text {
+
+    max-width:1287px;
     margin: 0 auto;
-    max-width: 1287px;
+
     position: relative;
     font-family: 'Montserrat';
     font-size: 96px;
@@ -151,12 +153,13 @@ a {
     position: absolute;
     content: "";
     height: 8px;
-    left: 47.38%;
-    right: 47.38%;
+    left: 48.54%;
+    right: 48.54%;
     top: -32px;
     background: #E08631;
 }
-.kitchen_pic {
+.kitchen__img {
     margin: 0 auto;
-    max-width:1440px;
+    display: block;
+    max-width: 100%;    
 }
