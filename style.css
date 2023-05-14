@@ -10,6 +10,18 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(82,80,59,1) 48%, rgba(182,144,60,1) 98%);
+  } 
 .header {
     max-width:1440px;
     height: 80px;
@@ -160,4 +172,36 @@ a {
     margin: 0 auto;
     display: block;
     max-width: 100%;    
+}
+.sleeping {
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+    background-color:#FAF8F0;
+    padding-top: 138px;
+    padding-bottom: 99px;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.sleeping-wrap {
+    max-width:1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 158px 140px;
+    grid-template-columns: repeat(3, 388px);
+    grid-row: 30px;
+    grid-column: 73px;
+    grid-template-areas:
+        "header header header"
+        "content1 content2 content2" ;
+    justify-items: center;
+}
+.slepping-wrap__definition {
+    grid-area: header;
+    justify-self: center;
+    text-align: center;
+}
+.slepping-wrap__definition p {
+    color: red;
+    max-width: 554px;
 }
