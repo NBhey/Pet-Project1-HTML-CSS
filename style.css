@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    background:black;
+   background-color: s#FAF8F0;
 }
 a {
     text-decoration: none;
@@ -108,15 +108,55 @@ a {
   
 }
 .descriptio__wrap {
+    /* margin: 0 auto; */
     display: flex;
     gap: 40px;
     justify-content:space-evenly;
-    margin: 0 auto;
+    align-content: center;
+    position: relative;
+}
+.descriptio__wrap::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    left: 47.38%;
+    right: 47.38%;
+    top: -33px;
+    background: #E08631;
 }
 .descriptio__text {
     max-width:360px;
 }
 .descriptio__secondText {
     max-width: 343px;
-
+}
+.slogan {
+    background-color: #ffffff;
+    padding-top: 140px;
+    padding-left: 76px;
+    padding-bottom:140px;
+}
+.slogan__text {
+    margin: 0 auto;
+    max-width: 1287px;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.slogan__text::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    left: 47.38%;
+    right: 47.38%;
+    top: -32px;
+    background: #E08631;
+}
+.kitchen_pic {
+    margin: 0 auto;
+    max-width:1440px;
 }
