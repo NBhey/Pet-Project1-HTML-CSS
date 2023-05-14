@@ -137,8 +137,10 @@ a {
     padding-bottom:140px;
 }
 .slogan__text {
+
     max-width:1287px;
     margin: 0 auto;
+
     position: relative;
     font-family: 'Montserrat';
     font-size: 96px;
