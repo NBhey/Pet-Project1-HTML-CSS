@@ -131,6 +131,7 @@ a {
     max-width: 343px;
 }
 .slogan {
+    margin: 0 auto;
     background-color: #ffffff;
     padding-top: 140px;
     padding-left: 76px;
