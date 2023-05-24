@@ -188,20 +188,47 @@ a {
     margin: 0 auto;
     display: grid;
     grid-template-rows: 158px 140px;
-    grid-template-columns: repeat(3, 388px);
+    grid-template-columns: repeat(3, 1fr);
     grid-row: 30px;
     grid-column: 73px;
     grid-template-areas:
         "header header header"
-        "content1 content2 content2" ;
+        "bed bedroom bath" ;
     justify-items: center;
 }
 .slepping-wrap__definition {
     grid-area: header;
     justify-self: center;
     text-align: center;
+    position: relative;
 }
 .slepping-wrap__definition p {
     color: red;
     max-width: 554px;
+}
+.sleeping-wrap__bed {
+    grid-area:bed;
+}
+.sleeping-bed{
+    text-align: center;
+}
+.sleeping-bed__title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.sleeping-bed__text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.sleeping-bedrooms {
+
+}
+.sleeping-wrap__bedrooms {
+    
 }
