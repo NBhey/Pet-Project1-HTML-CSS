@@ -143,6 +143,7 @@ a {
     max-width: 343px;
 }
 .slogan {
+    margin: 0 auto;
     background-color: #ffffff;
     padding-top: 140px;
     padding-left: 76px;
@@ -195,6 +196,7 @@ a {
         "header header header"
         "bed bedroom bath" ;
     justify-items: center;
+   
 }
 .slepping-wrap__definition {
     grid-area: header;
@@ -226,9 +228,23 @@ a {
     line-height: 20px;
     letter-spacing: 0em;
 }
-.sleeping-bedrooms {
-
+.slepping-bedrooms {
+    text-align: center;
 }
 .sleeping-wrap__bedrooms {
-    
+    grid-area:bedroom;
+}
+.sleeping-bedrooms__title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.sleeping-bedrooms__text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
 }
