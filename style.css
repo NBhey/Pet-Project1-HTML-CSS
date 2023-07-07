@@ -65,7 +65,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    /* cursor: url(./pointer/pointer2.png) 0 0,pointer;    */
+    cursor: url(./pointer/pointer6.png) 0 0,pointer;   
 }
 .main {
     position: relative;
