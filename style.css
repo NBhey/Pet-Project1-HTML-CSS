@@ -118,7 +118,6 @@ a {
     height: 410px;
     padding-left: 361px;
     padding-right: 336px;
-  
 }
 .descriptio__wrap {
     /* margin: 0 auto; */
@@ -294,7 +293,39 @@ a {
     align-items: flex-start;
     gap: 14px;
     grid-area: title;
+    margin-bottom: 32px;
 }
 .title-service__text{
     max-width: 554px;
+    
+}
+.modern-service {
+    grid-area: kitchen;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.air-service{
+    grid-area: air;
+}
+.outdoor-service {
+    grid-area: outdoor;
+}
+.storage-service{
+    grid-area:storage;
+}
+.coffee-service {
+    grid-area:coffee;
+}
+.cutlery-service {
+    grid-area:cutlery;
+}
+.natural-service {
+    grid-area:natural;
+}
+.take-away-service {
+    grid-area:take-away;
 }
