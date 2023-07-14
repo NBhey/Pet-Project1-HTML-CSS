@@ -5,11 +5,24 @@
 }
 body {
    background-color: s#FAF8F0;
+   cursor: url(./pointer/pointer1.png) 0 0,pointer; 
 }
 a {
     text-decoration: none;
     color: #ffffff;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(82,80,59,1) 48%, rgba(182,144,60,1) 98%);
+  } 
 .header {
     max-width:1440px;
     height: 80px;
@@ -52,7 +65,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    cursor: url(./pointer/pointer1.png) 0 0,pointer;   
+    /* cursor: url(./pointer/pointer1.png) 0 0,pointer;    */
 }
 .main {
     position: relative;
@@ -131,6 +144,7 @@ a {
     max-width: 343px;
 }
 .slogan {
+    margin: 0 auto;
     background-color: #ffffff;
     padding-top: 140px;
     padding-left: 76px;
@@ -162,4 +176,98 @@ a {
     margin: 0 auto;
     display: block;
     max-width: 100%;    
+}
+.sleeping {
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+    background-color:#FAF8F0;
+    padding-top: 138px;
+    padding-bottom: 99px;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.sleeping-wrap {
+    max-width:1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 158px 140px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 76px;
+    grid-template-areas:
+        "header header header"
+        "bed bedroom bath" ;
+    justify-content: center;
+    justify-items:center   
+}
+.slepping-wrap__definition {
+    grid-area: header;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+}
+.slepping-wrap__definition p {
+    text-decoration:overline;
+    max-width: 554px;
+}
+.sleeping-wrap__bed {
+    grid-area:bed;
+}
+.sleeping-bed{
+    text-align: center;
+}
+.sleeping-bed__title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.sleeping-bed__text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.slepping-bedrooms {
+    text-align: center;
+}
+.sleeping-wrap__bedrooms {
+    grid-area:bedroom;
+}
+.sleeping-bedrooms__title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.sleeping-bedrooms__text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.slepping-bathroom {
+    text-align: center;
+}
+.sleeping-wrap__bathroom {
+    grid-area:bath;
+}
+.sleeping-bathroom__title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.sleeping-bathroom__text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
 }
