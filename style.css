@@ -272,7 +272,7 @@ a {
     margin: 0 auto;
 }
 .service__wrap {
-    background-color:#FAF8F0;
+    background-color:#ffffff;
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 138px;
@@ -297,6 +297,12 @@ a {
 }
 .title-service__text{
     max-width: 554px;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     
 }
 .modern-service {
@@ -306,26 +312,76 @@ a {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .air-service{
     grid-area: air;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .outdoor-service {
     grid-area: outdoor;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .storage-service{
     grid-area:storage;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .coffee-service {
     grid-area:coffee;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .cutlery-service {
     grid-area:cutlery;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .natural-service {
     grid-area:natural;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
 .take-away-service {
     grid-area:take-away;
+    color: #52503B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
