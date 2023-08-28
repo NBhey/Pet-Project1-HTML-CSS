@@ -425,11 +425,28 @@ a {
 }
 .reviews-comment {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-left: 80px;
 }
-.reviews-comment__1{
+.reviews-comment__1 {
     padding-top: 31px;
     padding-bottom: 31px;
     padding-left: 31px;
     padding-right: 47px;
+    background-color: #f9f9fd;
+}
+.reviews-comment__1 p {
+    padding-top: 15px;
+}
+.name-comment {
+    position: relative;
+}
+.name-comment::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    width: 2px;
+    height: 20px;
+    background: #E08631;
 }
