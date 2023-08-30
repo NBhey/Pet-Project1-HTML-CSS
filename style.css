@@ -4,7 +4,11 @@
     padding: 0;
 }
 body {
-   background-color: s#FAF8F0;
+    background: #BA8B02;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   /* background-color: s#FAF8F0; */
    cursor: url(./pointer/pointer1.png) 0 0,pointer; 
 }
 a {
@@ -148,6 +152,7 @@ a {
     padding-top: 140px;
     padding-left: 76px;
     padding-bottom:140px;
+    max-width: 1440px;
 }
 .slogan__text {
 
@@ -288,6 +293,7 @@ a {
     "outdoor storage"
     "coffee cutlery"
     "natural take-away";
+    column-gap: 10px;
 }
 .title__service {
     display: flex;
@@ -386,4 +392,66 @@ a {
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 40px;
+}
+.reviews {
+    margin: 0 auto;
+}
+.reviews__wrap {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #FAF8F0;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.reviews__title {
+    max-width: 600px;
+    color: #52503B;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: 36px; /* 112.5% */
+}
+.reviews__title > h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+.reviews__title > p {
+    max-width: 572px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.reviews-comment {
+    max-width: 1220px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-left: 80px;
+    overflow-y: scroll;
+}
+.reviews-comment__1 {
+    padding-top: 31px;
+    padding-bottom: 5px;
+    padding-left: 31px;
+    padding-right: 47px;
+    background-color: #f9f9fd;
+}
+.reviews-comment__1 p {
+    padding-top: 15px;
+}
+.name-comment {
+    position: relative;
+}
+.name-comment::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    width: 2px;
+    height: 20px;
+    background: #E08631;
 }
