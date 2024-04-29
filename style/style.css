@@ -9,7 +9,7 @@ body {
     background: linear-gradient(to bottom, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
    /* background-color: s#FAF8F0; */
-   cursor: url(/pointer/pointer1.png) 0 0,pointer; 
+   cursor: url(./pointer/pointer1.png) 0 0,pointer; 
 }
 a {
     text-decoration: none;
@@ -69,14 +69,14 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    cursor: url(/pointer/pointer6.png) 0 0,pointer;   
+    cursor: url(./pointer/pointer6.png) 0 0,pointer;   
 }
 .main {
     position: relative;
     margin:0 auto;
     height:800px;
     max-width:1440px;
-    background-image:url(/images/IMAGE4.png);
+    background-image:url(./images/IMAGE4.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 178px;
