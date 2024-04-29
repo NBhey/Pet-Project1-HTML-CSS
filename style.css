@@ -176,7 +176,7 @@ a {
     top: -32px;
     background: #E08631;
 }
-.kitchen__img {
+.img {
     margin: 0 auto;
     display: block;
     max-width: 100%;    
@@ -449,7 +449,7 @@ a {
     from { transform: translateX(350%); }
     to { transform: translateX(-430%); }
   }
-  
+
 .reviews-comment__1 p {
     padding-top: 15px;
 }
