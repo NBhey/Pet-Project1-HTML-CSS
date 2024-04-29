@@ -18,6 +18,10 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      { 
+        test: /\.(js)$/, 
+        use: 'babel-loader' 
+      },
       {
         test: /\.(?:ico|gif|png|jpg|jpeg|svg)$/i,
         type: 'asset/resource',
