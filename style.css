@@ -433,8 +433,9 @@ a {
     justify-content: space-between;
     gap: 20px;
     padding-left: 80px;
-    overflow: hidden;
+    overflow-x: hidden;    
 }
+
 .reviews-comment__1 {
     min-width: 350px;
     padding-top: 31px;
@@ -442,7 +443,13 @@ a {
     padding-left: 31px;
     padding-right: 47px;
     background-color: #f9f9fd;
+    animation: marquee 15s linear infinite;
 }
+@keyframes marquee {
+    from { transform: translateX(350%); }
+    to { transform: translateX(-430%); }
+  }
+  
 .reviews-comment__1 p {
     padding-top: 15px;
 }
