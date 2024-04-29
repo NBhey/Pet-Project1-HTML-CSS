@@ -464,3 +464,77 @@ a {
     height: 20px;
     background: #E08631;
 }
+
+.footer {
+    padding: 80px;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 610px;
+    background-color: #52503B;
+}
+
+.footer-wrap {
+    display: grid;
+    grid-template-areas:
+    "nav social form"
+    "data data data";
+    gap: 50px;
+    justify-content: start;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color:#ffffff;
+}
+h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 2px
+}
+.footer__nav {
+    grid-area: nav;
+    margin-right: 50px;
+}
+.footer__nav > a {
+    display: block;
+    margin-bottom: 5px;
+}
+.footer__social-media{
+    grid-area: social;
+    margin-right: 90px;
+}
+
+.footer__input {
+    grid-area: form;
+    
+}
+.footer__input > input{
+    margin-top: 10px;
+    width: 300px;
+    height:  24px;
+    background-color:  whitesmoke;    
+    border: none;  
+    border-radius: 3px;
+}
+.footer__input >  input::placeholder {
+    font-family: 'Raleway';
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+.footer__input > button {
+    height: 15%;
+    width: 6%;
+    border-radius: 40px;
+    background-color: rgba(112, 112, 112, 1);
+    cursor: pointer ;
+}
+.footer__data {
+    grid-area: data;
+    justify-self: center;
+    text-align: center;
+}
+.footer__data > p{
+    margin-top: 10px;
+}
