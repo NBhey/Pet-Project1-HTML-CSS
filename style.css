@@ -427,14 +427,16 @@ a {
 }
 .reviews-comment {
     max-width: 1220px;
-    height: 350px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    max-height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     gap: 20px;
     padding-left: 80px;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 .reviews-comment__1 {
+    min-width: 350px;
     padding-top: 31px;
     padding-bottom: 5px;
     padding-left: 31px;
